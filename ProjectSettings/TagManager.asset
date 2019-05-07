@@ -7,6 +7,7 @@ TagManager:
   - Moneda
   - Lava
   - Pelota
+  - SanicMob
   layers:
   - Default
   - TransparentFX

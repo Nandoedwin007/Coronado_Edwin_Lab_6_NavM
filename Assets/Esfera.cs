@@ -100,6 +100,12 @@ public class Esfera : MonoBehaviour
             Destroy(gameObject);
         }
 
+        //Solo se necesita 1 power up para sobrevivir la lava
+        if (other.gameObject.tag == "SanicMob")
+        {
+            Destroy(gameObject);
+        }
+
     }
     //Esto salta
     private void Jump()
